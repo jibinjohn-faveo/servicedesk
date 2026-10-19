@@ -1,11 +1,37 @@
-<div align="center">
+# Faveo Helpdesk ITSM Landing Page
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+An enterprise-grade ITSM & Helpdesk software landing page built with React, TypeScript, and Tailwind CSS.
 
-  <h1>Built with AI Studio</h2>
+## Getting Started
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+2. Run development server:
+   ```bash
+   npm run dev
+   ```
 
-</div>
+3. Build for production:
+   ```bash
+   npm run build
+   ```
+
+## Connecting to GitHub & Deployment
+
+To push this repository to GitHub and deploy it (e.g. via GitHub Pages using the included GitHub Actions workflow):
+
+1. **Create a new repository on GitHub** (e.g., `faveo-landing-page`).
+2. **Link and push your local repository**:
+   ```bash
+   git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
+   git add .
+   git commit -m "Initial commit - Faveo ITSM Landing Page"
+   git push -u origin main
+   ```
+3. **Enable GitHub Pages**:
+   - Go to your GitHub repository settings -> **Pages**.
+   - Under **Build and deployment**, select **GitHub Actions** as the source.
+   - The included workflow in `.github/workflows/deploy.yml` will automatically build and publish your app on every push to `main`.

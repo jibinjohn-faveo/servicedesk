@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Faveo Service Desk | Enterprise ITSM & ITIL Service Management Software</title>
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // https://github.com/rafgraph/spa-github-pages
+      // This script takes the current url and redirects to the index page with the query parameters encoded.
+      var segmentCount = 1;
+      var l = window.location;
+      var pathSegments = l.pathname.slice(1).split('/');
+      var repo = pathSegments[0]; // 'Faveo-servicedesk'
+      
+      // If path has more than just the repo name, redirect properly for SPA router
+      if (pathSegments.length > segmentCount && pathSegments[1] !== '') {
+        var base = '/' + repo + '/';
+        var redirectPath = '/' + pathSegments.slice(1).join('/');
+        window.location.replace(
+          l.protocol + '//' + l.host + base + '?p=' + encodeURIComponent(redirectPath) + l.hash
+        );
+      }
+    </script>
+  </head>
+  <body class="bg-slate-50 text-slate-900 font-sans antialiased">
+    <div id="root"></div>
+    <script type="module" src="./src/main.tsx"></script>
+  </body>
+</html>
