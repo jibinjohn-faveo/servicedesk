@@ -33,13 +33,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenDemoModal, onOpenTrialModa
 
           {/* Primary Action */}
           <div className="flex items-center gap-3 shrink-0">
-            <button
-              onClick={onLaunchApp}
-              className="px-4 py-2.5 text-xs font-bold text-white bg-slate-900 hover:bg-slate-800 active:scale-98 rounded-xl shadow-md transition-all whitespace-nowrap shrink-0 cursor-pointer flex items-center gap-2"
-            >
-              <Terminal className="w-4 h-4 text-[#00aeef]" />
-              Launch Service Desk App
-            </button>
+
             <button
               onClick={onOpenDemoModal}
               className="px-5 py-2.5 text-xs font-bold text-white bg-[#00aeef] hover:bg-[#009cd7] active:scale-98 rounded-xl shadow-sm transition-all whitespace-nowrap shrink-0 cursor-pointer"

@@ -75,15 +75,13 @@ export const Hero: React.FC<HeroProps> = ({ onOpenDemo }) => {
           <div className="lg:col-span-7 space-y-6">
             
             {/* Clean Editorial Kicker (Zero-Pill Discipline, No decorative pulsing dots) */}
-            <div className="flex items-center gap-2 text-xs font-bold tracking-wider uppercase text-[#00aeef]">
-              <span>AI-Servicedesk</span>
-              <span aria-hidden="true" className="text-slate-300">·</span>
-              <span className="text-slate-600 font-medium normal-case tracking-normal">ITIL-Compliant Enterprise ITSM</span>
+            <div className="flex items-center gap-2 text-xs font-bold tracking-wider uppercase text-slate-600">
+              <span className="font-semibold normal-case tracking-normal">ITIL-Compliant Enterprise ITSM</span>
             </div>
 
             {/* Banner Headline with Faveo Brand Color */}
             <h1 className="text-4xl sm:text-5xl lg:text-[3.25rem] font-extrabold tracking-tight text-slate-900 leading-[1.12] text-balance">
-              Control IT Support. <br className="hidden sm:inline" />
+              AI-Service Desk Control IT Support. <br className="hidden sm:inline" />
               <span className="text-[#00aeef]">Close Tickets Faster.</span>
             </h1>
 
